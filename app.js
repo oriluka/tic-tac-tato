@@ -6,6 +6,11 @@
 //   document.getElementById("1").innerHTML = 'x';
 // }
 // =================
+const isClient = typeof window !== 'undefined';
+let app;
+if (typeof window !== 'undefined') {
+  app = require('app.js')
+}
 
 // on dom load, run build board function
 window.addEventListener('DOMContentLoaded', (event) => {
