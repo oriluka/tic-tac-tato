@@ -3,6 +3,11 @@ testing heroku
 
 /*HEROKU STUFF
 
+
+- ALRIGHT: tried lots of things, it either needs a server/database OR jsdom might help. Problem is, document is not defined in nodejs and I got to define it for the thing to even run.
+
+https://github.com/jsdom/jsdom
+
 - appears to need a package.json file
 - will probably have to add server and db since heroku seemsm to only work with node.js and can't just do standalone pages.
 - get rid of composer.json and index.php probably.
