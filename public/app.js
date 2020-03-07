@@ -6,14 +6,14 @@
 //   document.getElementById("1").innerHTML = 'x';
 // }
 // =================
-const isClient = typeof window !== 'undefined';
-let app;
-if (typeof window !== 'undefined') {
-  app = require('app.js')
-}
+// const isClient = typeof window !== 'undefined';
+// let app;
+// if (typeof window !== 'undefined') {
+//   app = require('app.js')
+// }
 
 // on dom load, run build board function
-global.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', (event) => {
   // will prob add a p1 and p2 input here
   counterAndButtons()
   board()
