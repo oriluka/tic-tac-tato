@@ -197,11 +197,13 @@ const winnerCheck = function(letter) {
   if (BoardObject.actualBoard[1][1] === letter) {
     if (BoardObject.actualBoard[0][0] === letter && BoardObject.actualBoard[2][2] === letter) {
       displayWinButton(letter)
+      return;
       //startNewGame(letter);
 
     }
     if (BoardObject.actualBoard[0][2] === letter && BoardObject.actualBoard[2][0] === letter) {
       displayWinButton(letter)
+      return;
       //startNewGame(letter);
 
     }
@@ -217,6 +219,7 @@ const winnerCheck = function(letter) {
     }
     if (winner) {
       displayWinButton(letter)
+      return;
       //startNewGame(letter);
     }
   }
@@ -230,6 +233,7 @@ const winnerCheck = function(letter) {
     }
     if (winner) {
       displayWinButton(letter)
+      return;
       //startNewGame(letter);
     }
   }
@@ -237,6 +241,7 @@ const winnerCheck = function(letter) {
   if (BoardObject.turnCounter === 9) {
     console.log('tie!')
     displayWinButton()
+    return;
     //startNewGame();
   }
 }
