@@ -1,6 +1,13 @@
 # tic-tac-tato
 testing heroku
 
+/*HEROKU STUFF
+
+- appears to need a package.json file
+- will probably have to add server and db since heroku seemsm to only work with node.js and can't just do standalone pages.
+- get rid of composer.json and index.php probably.
+
+*/
 
 
 
