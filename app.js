@@ -13,7 +13,7 @@ if (typeof window !== 'undefined') {
 }
 
 // on dom load, run build board function
-window.addEventListener('DOMContentLoaded', (event) => {
+globalThis.addEventListener('DOMContentLoaded', (event) => {
   // will prob add a p1 and p2 input here
   counterAndButtons()
   board()
