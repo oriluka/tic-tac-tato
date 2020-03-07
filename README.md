@@ -7,6 +7,8 @@ testing heroku
 - will probably have to add server and db since heroku seemsm to only work with node.js and can't just do standalone pages.
 - get rid of composer.json and index.php probably.
 
+- looking grim, tried a bunch of things, prob gonna need to make a server and database or something. At least a server might not need a database.
+
 */
 
 
