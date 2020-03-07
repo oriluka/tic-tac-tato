@@ -1,0 +1,32 @@
+
+body {
+  padding: 20px;
+  background-color:#675E67  ;
+  font-family: 'Rubik', sans-serif;
+  color: #D7AAB8;
+}
+table {
+  border-collapse: collapse;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+td {
+  background-color: #4A4149 ;
+  font-size: 80px;
+  color: #CA527D;
+  border: 3px solid #B490A2;
+  margin: 10px;
+
+}
+#teamnames {
+  color: #CA527D;
+  font-weight: bold;
+}
+
+#counterbuttons {
+  padding: 10px;
+  margin-left: 50;
+  margin-right: 50;
+  background: #4A4149;
+}
